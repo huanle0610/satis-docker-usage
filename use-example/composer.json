@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {"type": "composer", "url": "http://amtf.org:8080/"}
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "v2.6.3"
+    },
+    "config": {
+        "secure-http": false
+    }
+}

@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  php7.1.18:
+    image: huanle0610/docker-php7-composer:latest
+    extra_hosts:
+      - "amtf.org:${HOST_IP}"
+    volumes:
+      - ./:/app

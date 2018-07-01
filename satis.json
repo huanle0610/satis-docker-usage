@@ -1,0 +1,20 @@
+{
+    "name": "satis-server",
+    "homepage": "http://localhost:8080/",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.org"
+        }
+    ],
+    "config": {
+        "secure-http": false
+    },
+    "require-all": false,
+    "require-dependencies": false,
+    "require-dev-dependencies": false,
+    "archive": {
+        "directory": "dist",
+        "format": "zip"
+    }
+}
